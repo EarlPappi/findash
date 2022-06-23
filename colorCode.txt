@@ -1,0 +1,3 @@
+greyIsh bg - #F0F0F0
+the blue- #1AB8E7
+the texts - #1D1D1D
