@@ -1,0 +1,63 @@
+.authWrapper{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.formCon{
+    height: 100%;
+    padding: 3em;
+    width: 30%;
+}
+
+.formCon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.formCon nav{
+    margin: 2rem 0;
+    display: flex;
+    text-align: center;
+}
+
+.formCon nav a{
+    display: block; 
+    width: 100%;
+    padding: 1rem;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+.formCon nav a:hover, .formCon nav a:active, .formCon nav a:focus{
+    border-bottom: 2px solid #1AB8E7;
+}
+
+.loginForm{
+    margin: 2rem 0;
+}
+
+.loginForm input, .loginForm a{
+    display: block;
+    margin: .8rem 0;
+    padding: .8rem;
+    width: 100%;
+}
+
+.loginForm input{
+    outline: none;
+}
+
+.flexit{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flexit input{
+    margin: 0;
+    padding: 0;
+    width: 5%;
+}
