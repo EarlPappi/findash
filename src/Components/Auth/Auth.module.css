@@ -34,18 +34,15 @@
     border-bottom: 2px solid #1AB8E7;
 }
 
-.loginForm{
+.loginForm, .signupForm{
     margin: 2rem 0;
 }
 
-.loginForm input, .loginForm a{
+.loginForm input, .loginForm a, .signupForm input{
     display: block;
     margin: .8rem 0;
     padding: .8rem;
     width: 100%;
-}
-
-.loginForm input{
     outline: none;
 }
 
@@ -56,8 +53,40 @@
     flex-direction: row;
 }
 
+.flexit a{
+    width: 40%;
+}
+
 .flexit input{
     margin: 0;
     padding: 0;
     width: 5%;
+}
+
+button{
+    display: block;
+    background-color: #1AB8E7;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    padding: .8rem 2rem;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+button:hover{
+    outline: #1AB8E7 2px solid;
+    background-color: white;
+    color: #1AB8E7;
+}
+
+.signupFlex{
+    display: flex;
+    gap: .8rem;
+}
+
+.signupFlex input{
+    display: block;
 }
