@@ -9,8 +9,8 @@ const Home = () => {
             <Header />
 
             <div className={ classes.homeWrapper }>
-                <Sidebar />
-                <Outlet/>
+                <Sidebar className={ classes.homeSidebar }/>
+                <Outlet className={ classes.homeOutlet }/>
             </div>
             <Link to='/auth'>Go to Auth</Link>
         </div>

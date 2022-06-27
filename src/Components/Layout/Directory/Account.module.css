@@ -1,0 +1,17 @@
+
+
+.accountHeaderCon{
+    padding: 2rem;
+    border-bottom: #1AB8E7 2px solid;
+    min-width: 100%;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+.accountInDiv{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
