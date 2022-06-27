@@ -1,8 +1,21 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faToggleOff } from '@fortawesome/free-solid-svg-icons';
+import { faToggleOff, faToggleOn } from '@fortawesome/free-solid-svg-icons';
 import classes from './Account.module.css';
+import { useState } from "react";
 
 const Account = () => {
+    const [toggleIcon, setToggleIcon] = useState(faToggleOff);
+    const [toggleIconO, setToggleIconO] = useState(faToggleOff);
+
+    const changeIcon = ()=>{
+         setToggleIcon(toggleIcon === faToggleOff ? faToggleOn : faToggleOff);
+    }
+    const changeIconO = ()=>{
+         setToggleIconO(toggleIconO === faToggleOff ? faToggleOn : faToggleOff);
+    }
+
+
+
     return ( 
         <div className='outlet'>
             <h1>Account</h1>
@@ -11,13 +24,13 @@ const Account = () => {
                 <div className={ classes.accountInDiv }>
                     <span className='blueHeading'>$0.00</span>
                     <span>Total in Real Account</span>
-                    <span><FontAwesomeIcon icon={faToggleOff}/> </span>
+                    <span><FontAwesomeIcon icon={toggleIcon} onClick={ changeIcon }/> </span>
                 </div>
 
                 <div className={ classes.accountInDiv }>
                     <span className='blueHeading'>$0.00</span>
                     <span>Most profitable trade</span>
-                    <span><FontAwesomeIcon icon={faToggleOff}/> </span>
+                    <span><FontAwesomeIcon icon={toggleIconO} onClick={ changeIconO }/> </span>
                 </div>
 
                 <div className={ classes.accountInDiv }>
