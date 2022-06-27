@@ -1,0 +1,31 @@
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 1.5rem;
+    height: 100%;
+}
+
+.sideBar a{
+    text-decoration: none;
+    padding: .2rem 1rem;
+    font-size: .9rem;
+    color: #1D1D1D;
+}
+
+.sideBar a:hover, .sideBar a:focus, .sideBar a:active{
+    font-weight: 600;
+    color: black;
+    border-left: #1AB8E7 3px solid;
+}
+
+.sideBar span{
+    padding-left: 1rem;
+    font-size: .6rem;
+    font-weight: 400;
+    color: #1D1D1D;
+}
+
+.sideBar:first-child{
+    max-width: 15%;
+}

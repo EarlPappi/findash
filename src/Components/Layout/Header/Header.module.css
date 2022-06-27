@@ -1,5 +1,21 @@
 header{
     background-color: white;
     display: flex;
+    justify-content: space-between;
+    padding: 1rem;
     
+}
+
+.headerImg{
+    width: 10%;
+}
+header nav{
+    display: flex;
+    gap: 2rem;
+}
+
+.innerFlexCol{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }

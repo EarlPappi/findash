@@ -8,7 +8,7 @@ const Auth = () => {
 
             <div className={classes.authWrapper}>
                 <div className={ classes.formCon }>
-                    <img src={Logo} alt="" width='50%' />
+                    <Link to='../'><img src={Logo} alt="" width='50%' /></Link>
                     <nav>
                         <Link to="/auth/login">Sign In</Link>
                         <Link to="/auth/signup">Register</Link>
