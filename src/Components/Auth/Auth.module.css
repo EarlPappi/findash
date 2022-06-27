@@ -32,6 +32,7 @@
 
 .formCon nav a:hover, .formCon nav a:active, .formCon nav a:focus{
     border-bottom: 2px solid #1AB8E7;
+    color: #1AB8E7;
 }
 
 .loginForm, .signupForm{
