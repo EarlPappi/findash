@@ -24,13 +24,13 @@ const Account = () => {
                 <div className={ classes.accountInDiv }>
                     <span className='blueHeading'>$0.00</span>
                     <span>Total in Real Account</span>
-                    <span><FontAwesomeIcon icon={toggleIcon} onClick={ changeIcon }/> </span>
+                    <span><FontAwesomeIcon icon={toggleIcon} onClick={ changeIcon } style={{'fontSize': '1.3rem'}}/> </span>
                 </div>
 
                 <div className={ classes.accountInDiv }>
                     <span className='blueHeading'>$0.00</span>
                     <span>Most profitable trade</span>
-                    <span><FontAwesomeIcon icon={toggleIconO} onClick={ changeIconO }/> </span>
+                    <span><FontAwesomeIcon icon={toggleIconO} onClick={ changeIconO } style={{'fontSize': '1.3rem'}}/> </span>
                 </div>
 
                 <div className={ classes.accountInDiv }>
@@ -38,6 +38,9 @@ const Account = () => {
                     <span>Number of trades this week</span>
                 </div>
             </div>
+
+
+            
         </div>
      );
 }
