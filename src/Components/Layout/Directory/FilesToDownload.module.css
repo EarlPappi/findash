@@ -1,0 +1,20 @@
+.toDownloadCon {
+    background-color: aliceblue;
+    border: black 1px solid;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+    padding: 1.5rem .5rem;
+}
+
+.toDownloadCon a {
+    text-decoration: none;
+    background-color: black;
+    padding: .5rem .7rem;
+    color: white;
+    border-radius: 5px;
+}
