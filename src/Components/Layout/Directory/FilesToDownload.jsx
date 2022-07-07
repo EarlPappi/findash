@@ -25,23 +25,32 @@ const FilesToDownload = () => {
             title: 'MT5 Android',
             platform: 'Android',
             url: 'https://google.com/pappi'
+        },
+        {
+            name: 'MetaTrader 5',
+            title: 'MT5 Windows',
+            platform: 'Windows',
+            url: 'https://google.com/pappi'
         }
     ]
     return (
         <div className='outlet'>
-        <h1>Files to Download</h1>
-        { files.map(file =>{
-            console.log('working ')
-            return(
-                <div className= { classes.toDownloadCon }>
-                    <h3>{ file.name }</h3>
-                    <h3>{ file.title }</h3>
-                    <h3>{ file.platform }</h3>
-                    <a href={ file.url }>Download</a>
-                </div>
-                
-            )
-        }) }  
+            <h1>Files to Download</h1>
+            {files.map(file => {
+                console.log('working ')
+                return (
+                    <div className={classes.toDownloadCon}>
+                        <h3>{file.name}</h3>
+                        <h3 className={classes.toDownloadTitle}>{file.title}</h3>
+                        <h3 className={classes.toDownloadPlatform}>
+                            <span className={ classes.retro }>Platform</span>
+                            <span>{file.platform}</span>
+                        </h3>
+                        <a href={file.url}>Download</a>
+                    </div>
+
+                )
+            })}
 
         </div>
     );
