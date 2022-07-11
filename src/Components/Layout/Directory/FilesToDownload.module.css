@@ -8,7 +8,10 @@
     justify-content: space-between;
     gap: 8rem;
     padding: 1.5rem;
-    box-shadow: #565656 4px 2px 5px 0px;
+}
+
+.toDownloadCon:hover{    
+    box-shadow: #565656 4px 2px ;
 }
 
 .toDownloadCon a {

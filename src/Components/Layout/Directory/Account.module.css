@@ -1,5 +1,3 @@
-
-
 .accountHeaderCon{
     padding: 2rem;
     border-bottom: #1AB8E7 2px solid;
@@ -14,4 +12,75 @@
     gap: 1rem;
     align-items: center;
 }
+
+.accountCreatecon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.accountCreatecon h3{
+    font-weight: 500;
+}
+
+.accountCreatecon span{
+    background-color: #1AB8E7;
+    padding: .7rem 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+form{
+    border: #1AB8E7 2px solid;
+    padding: 1rem;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+form h5{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    padding: .5rem 1rem;
+    width: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.formInner{
+    display: flex;
+    gap: 5rem;
+}
+
+.accountList{
+    margin-top: 3rem;
+}
+
+.accountListHeading{
+    display: flex;
+    gap: 10rem;
+    margin-bottom: 2rem;
+}
+
+.accountListItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.accountListIcon{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.accountListBtn{
+    background-color: #1AB8E7;
+    padding: .5rem 2rem;
+    color: white;
+}
+
 
